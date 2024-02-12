@@ -1,0 +1,201 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 80rem;
+  margin: auto;
+}
+
+.nav-bar,
+.nav-bar__list,
+footer,
+.contact,
+.contact__info,
+.hours,
+.hours__time-groups,
+.hours__time-groups__blocks,
+.social,
+.social__icons,
+.social__icons--size,
+.recommendations__cards__Hawaii,
+.recommendations__cards__Iceland,
+.recommendations__cards__Greece,
+.day-cards__schedule__activities,
+.day-cards__schedule li,
+.day-cards,
+.day-cards__schedule,
+.background-image,
+.recommendations__cards,
+.recommendations,
+.hero,
+.hero__text,
+.recommendations__cards {
+  display: flex;
+}
+
+.nav-bar__item--selected {
+  border-bottom: solid 4px #DB7A4E;
+  padding-bottom: 8px;
+}
+
+.nav-bar__list,
+footer,
+.contact,
+.contact__info,
+.hours,
+.hours__time-groups,
+.hours__time-groups__blocks,
+.hero__text,
+.day-cards__schedule__activities,
+.travel-selection {
+  justify-content: space-evenly;
+}
+
+.recommendations__cards,
+.day-cards__schedule p,
+.day-cards {
+  justify-content: space-around;
+}
+
+.background-image,
+.recommendations,
+.travel-selection,
+.background-image {
+  flex-wrap: wrap;
+}
+
+.recommendations__cards__Hawaii,
+.recommendations__cards__Iceland,
+.recommendations__cards__Greece,
+.background-image {
+  background-repeat: no-repeat;
+}
+
+h2,
+.recommendations__cards__Hawaii,
+.recommendations__cards__Iceland,
+.recommendations__cards__Greece,
+.recommendations__cards__Hawaii__label,
+.recommendations__cards__Iceland__label,
+.recommendations__cards__Greece__label,
+.day-cards__schedule__activities {
+  margin: 0;
+}
+
+.contact,
+.contact__info,
+.hours,
+.hours__time-groups__blocks,
+.social,
+.day-cards__schedule,
+.day-cards__schedule__activities,
+.day-cards__schedule p,
+.hero__text {
+  flex-direction: column;
+}
+
+.nav-bar {
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  height: 55px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+}
+
+.nav-bar__item,
+p,
+button {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.nav-bar__header,
+footer p,
+.hero__text p,
+h2 {
+  color: #335576;
+  margin: 0;
+}
+
+.nav-bar__header {
+  margin-left: 3.75rem;
+  font-size: 1.375rem;
+}
+
+.nav-bar__list {
+  list-style-type: none;
+  width: 25rem;
+  margin: 0;
+  margin-right: 3.75rem;
+}
+
+.nav-bar a {
+  color: black;
+}
+
+.travel-selection {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 11.25rem;
+  padding-right: 11.25rem;
+}
+
+.travel-selection__cards {
+  width: 16.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3125rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #FEFAF5;
+  height: 11.25rem;
+  padding-top: 2.5rem;
+}
+
+.contact {
+  height: 9.375rem;
+}
+
+.contact__info {
+  height: 3.75rem;
+}
+
+.hours {
+  height: 9.375rem;
+  width: 25rem;
+}
+
+.hours__time-groups {
+  width: 34.375rem;
+}
+
+.hours__time-groups__blocks {
+  height: 3.75rem;
+  width: 12.5rem;
+}
+
+.hours__day-text {
+  font-size: 0.75rem;
+  color: #DB7A4E;
+}
+
+.social {
+  height: 11.5625rem;
+  width: 8.4375rem;
+  justify-content: space-around;
+}
+
+.social__icons {
+  justify-content: space-between;
+}
+
+.social__icons--size {
+  height: 37%;
+}

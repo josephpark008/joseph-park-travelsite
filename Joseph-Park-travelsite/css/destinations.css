@@ -1,0 +1,74 @@
+/* Main Content Container */
+main {
+  width: 80rem;
+}
+
+/* Background Image Styling */
+.background-image {
+  width: 100%;
+  height: 43.75rem;
+  background-size: 84.375rem;
+  background-position: center 53%;
+  margin: 0;
+  margin-top: 3.4375rem;
+}
+
+/* Heading Styling */
+h1 {
+  font-size: 4.375rem;
+  height: 6.25rem;
+  margin: 0;
+  margin-top: 3.125rem;
+  margin-left: 3.75rem;
+  color: white;
+}
+
+/* General Paragraph Styling */
+.day-cards__schedule__activities li {
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #FEFAF5;
+  width: 14.375rem;
+}
+
+/* Day Cards Styling */
+.day-cards__schedule__activities,
+.day-cards__schedule {
+  align-items: center;
+  list-style-type: none;
+}
+
+.day-cards {
+  width: 81.25rem;
+  padding-left: 11.25rem;
+  padding-right: 11.25rem;
+  padding-bottom: 3.125rem;
+  margin-bottom: 1.875rem;
+}
+
+.day-cards__schedule {
+  background-color: #FFFFFF;
+  height: 23.125rem;
+  text-align: center;
+  width: 15.625rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 0.625rem;
+}
+
+.day-cards__schedule__activities {
+  height: 18.75rem;
+  width: 14.375rem;
+  padding: 0;
+}
+
+.day-cards__schedule__days {
+  width: 14.375rem;
+  color: black;
+  border-bottom: 3px solid black;
+  height: 1.6875rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
